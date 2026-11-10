@@ -95,3 +95,4 @@ class MinimaxStrategy(AIStrategy):
                 if score < min_eval:
                     min_eval = score
             return int(min_eval)
+

@@ -144,3 +144,4 @@ class AlphaBetaStrategy(AIStrategy):
                     metrics.cutoffs_count += 1
                     break  # Alpha cutoff
             return int(min_eval)
+

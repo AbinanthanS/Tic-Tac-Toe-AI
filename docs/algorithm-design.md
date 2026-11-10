@@ -75,3 +75,4 @@ Both algorithms were executed on an empty board (worst-case search tree size). M
 ### Complexity Analysis:
 - **Plain Minimax**: $O(b^d)$, where $b$ is the effective branching factor and $d$ is depth. On an empty board, $9! = 362,880$ terminal leaves, resulting in $> 540,000$ recursive node visits.
 - **Alpha-Beta Pruning**: In optimal move ordering, complexity is reduced to $O(b^{d/2})$, effectively doubling the searchable depth in equivalent time.
+

@@ -36,3 +36,4 @@ class AIResult:
     """
     position: int
     metrics: AIMetrics
+

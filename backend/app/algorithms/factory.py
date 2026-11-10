@@ -26,3 +26,4 @@ def get_ai_strategy(difficulty: Difficulty | str) -> AIStrategy:
         return AlphaBetaStrategy(max_depth=None)
     else:
         raise ValueError(f"Unsupported difficulty: {difficulty}")
+

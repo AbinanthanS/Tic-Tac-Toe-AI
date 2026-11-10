@@ -214,3 +214,4 @@ class TestAlgorithmBenchmarking:
         print(f"Alpha-Beta Execution Time:        {res_ab.metrics.execution_time_ms:.2f} ms")
         reduction_pct = (1.0 - (res_ab.metrics.nodes_explored / res_mm.metrics.nodes_explored)) * 100.0
         print(f"Node Exploration Reduction:       {reduction_pct:.1f}%")
+

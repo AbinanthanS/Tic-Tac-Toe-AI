@@ -37,3 +37,4 @@ class RandomAIStrategy(AIStrategy):
         )
 
         return AIResult(position=chosen_position, metrics=metrics)
+
