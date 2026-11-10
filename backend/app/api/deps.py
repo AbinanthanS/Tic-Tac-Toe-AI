@@ -18,3 +18,4 @@ def get_game_repository() -> GameRepository:
 def get_game_service() -> GameService:
     """Dependency provider returning GameService injected with repository."""
     return GameService(repository=_repository_instance)
+

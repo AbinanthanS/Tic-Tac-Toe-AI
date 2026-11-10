@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased font-sans;
+  }
+}
+
+/* Pulsing highlight for winning line */
+@keyframes win-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.6);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(6, 182, 212, 0.9);
+  }
+}
+
+.winning-cell {
+  animation: win-pulse 1.5s infinite ease-in-out;
+}

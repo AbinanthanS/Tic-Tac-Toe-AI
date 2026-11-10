@@ -138,3 +138,4 @@ All application errors follow this structure:
   "details": {}
 }
 ```
+

@@ -184,3 +184,4 @@ def test_move_after_game_over_returns_409():
     move_res = client.post(f"/api/v1/games/{game_id}/moves", json={"position": 0})
     assert move_res.status_code == 409
     assert move_res.json()["error"] == "RULE_VIOLATION"
+

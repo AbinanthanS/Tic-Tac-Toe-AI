@@ -42,3 +42,4 @@ class InMemoryGameRepository(GameRepository):
         """Utility for test suites to wipe state between test runs."""
         with self._lock:
             self._storage.clear()
+

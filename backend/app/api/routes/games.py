@@ -94,3 +94,4 @@ def reset_game(
 ) -> GameResponse:
     """Resets the board for the current game while preserving settings."""
     return service.reset_game(game_id)
+

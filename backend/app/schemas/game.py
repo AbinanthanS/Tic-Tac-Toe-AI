@@ -69,3 +69,4 @@ class ErrorDetail(BaseModel):
     error: str = Field(..., description="Error category / code.")
     message: str = Field(..., description="Human-readable explanation.")
     details: dict | None = Field(default=None, description="Optional metadata or context.")
+

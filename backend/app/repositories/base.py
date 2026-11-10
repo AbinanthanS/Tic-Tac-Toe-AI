@@ -28,3 +28,4 @@ class GameRepository(ABC):
     def delete(self, game_id: str) -> bool:
         """Delete a game session. Returns True if deleted, False if not found."""
         pass
+

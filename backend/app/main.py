@@ -95,3 +95,4 @@ app.include_router(games_router, prefix="/api/v1")
 @app.get("/", include_in_schema=False)
 def root():
     return {"message": "Tic-Tac-Toe AI Backend API. Visit /docs for OpenAPI documentation."}
+
