@@ -24,3 +24,4 @@ class GameNotFoundError(DomainError):
     def __init__(self, game_id: str) -> None:
         super().__init__(f"Game with ID '{game_id}' not found.")
         self.game_id = game_id
+

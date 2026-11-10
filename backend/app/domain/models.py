@@ -222,3 +222,4 @@ class GameState:
         self.current_player = player.opponent
         self.updated_at = datetime.now(timezone.utc)
         return self
+

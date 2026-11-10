@@ -167,3 +167,4 @@ class TestGameState:
         assert game.status == GameStatus.DRAW
         assert game.winning_line is None
         assert game.board.is_full()
+
