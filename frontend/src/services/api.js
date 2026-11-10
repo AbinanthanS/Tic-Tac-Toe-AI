@@ -1,9 +1,12 @@
 /**
  * API Service for Tic-Tac-Toe Backend Communication.
  * Uses standard Fetch API to interact with versioned /api/v1 endpoints.
+ * Supports configurable VITE_API_BASE_URL for production cloud deployments.
  */
 
-const API_BASE = '/api/v1';
+const RAW_BASE = import.meta.env.VITE_API_BASE_URL || '';
+const API_BASE = RAW_BASE ? `${RAW_BASE.replace(/\/$/, '')}/api/v1` : '/api/v1';
+
 
 async function request(endpoint, options = {}) {
   const url = `${API_BASE}${endpoint}`;
