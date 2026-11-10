@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js / React
+node_modules/
+.pnp
+.pnp.js
+coverage/
+dist/
+build/
+*.local
+
+# Environment & IDE
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
